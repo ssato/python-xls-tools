@@ -1,4 +1,15 @@
 python-xls-tools
 ================
 
-Some tiny tools process xls (Excel) files
+Some tiny tools process xls (Excel) files.
+
+
+License
+===========
+
+MIT
+
+Author
+===========
+
+Satoru SATOH <ssato @ redhat.com>
