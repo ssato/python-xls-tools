@@ -2,7 +2,7 @@
 # Copyright (C) 2010 - 2012 Satoru SATOH <satoru.satoh at gmail.com>
 # License: MIT
 #
-from xlstools import adjust_width, max_col_widths, mergeable_cells
+from xlstools.utils import adjust_width, max_col_widths, mergeable_cells
 
 import csv
 import logging

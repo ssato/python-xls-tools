@@ -10,7 +10,7 @@ label_0, label_1, label_2, ....   => Headers
 value_0, value_1, ...             => Dataset
 ...
 """
-import xlstools as CW
+import xlstools.csvworkbook as CW
 
 import logging
 import optparse
