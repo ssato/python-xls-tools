@@ -1,0 +1,4 @@
+#! /usr/bin/python
+#
+from xlstools.csvs2xls import main
+main()
