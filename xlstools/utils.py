@@ -101,4 +101,23 @@ def mergeable_cells(xss, row_start=0, row_end=-1, col_start=0, col_end=-1):
 
     return ret
 
+
+def normalize_key(key):
+    """Normalize key name to be used as SQL key name.
+
+    >>> normalize_key('Key Name')
+    key_name
+    >>>
+    """
+    return key.lower().strip().replace(' ', '_')
+
+
+def rename_if_exists(target, suffix='.bak'):
+    """If the file $target (file or dir) exists, it will be renamed and backed
+    up as 'TARGET.${suffix}'. (The default suffix is '.bak'.)
+    """
+    if os.path.exists(target):
+        os.rename(target, target + suffix)
+
+
 # vim:sw=4:ts=4:et:

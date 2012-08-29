@@ -1,0 +1,4 @@
+#! /usr/bin/python
+#
+from xlstools.xlsto import main
+main()
